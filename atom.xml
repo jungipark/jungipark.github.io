@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jungipark.github.com/"/>
-  <updated>2016-07-31T11:12:51.262Z</updated>
+  <updated>2016-07-30T15:00:00.000Z</updated>
   <id>https://jungipark.github.com/</id>
   
   <author>
@@ -14,30 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>리눅스에서 파이썬으로 스크린샷 찍기</title>
-    <link href="https://jungipark.github.com/2016/07/31/2016-03-25-python-liux-screenshot/"/>
-    <id>https://jungipark.github.com/2016/07/31/2016-03-25-python-liux-screenshot/</id>
-    <published>2016-07-31T11:12:51.264Z</published>
-    <updated>2016-07-31T11:12:51.262Z</updated>
-    
-    <content type="html"><![CDATA[<p>리눅스에서 주기적으로 어떤 화면에 대한 스크린샷을 찍을때</p>
-<h3 id="필요한-라이브러리"><a href="#필요한-라이브러리" class="headerlink" title="필요한 라이브러리"></a>필요한 라이브러리</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install  firefox Xvfb libXfont Xorg</span><br><span class="line">pip install pyvirtualdisplay</span><br><span class="line">pip install selenium</span><br></pre></td></tr></table></figure>
-<h2 id="예제코드"><a href="#예제코드" class="headerlink" title="예제코드"></a>예제코드</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyvirtualdisplay <span class="keyword">import</span> Display</span><br><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
-<script src="//gist.github.com/89c8ea48a28524c8574ad1c7f17c1fe4.js"></script>
-<p>이 스크립트를 crontab을 이용해서 실행.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;리눅스에서 주기적으로 어떤 화면에 대한 스크린샷을 찍을때&lt;/p&gt;
-&lt;h3 id=&quot;필요한-라이브러리&quot;&gt;&lt;a href=&quot;#필요한-라이브러리&quot; class=&quot;headerlink&quot; title=&quot;필요한 라이브러리&quot;&gt;&lt;/a&gt;필요한 라이브러리&lt;/h3&gt;&lt;figur
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>windows7 pip user_base import error</title>
