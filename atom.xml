@@ -1,265 +1,52 @@
-
-<!DOCTYPE html>
-<html lang="korean">
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JunGi Park</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jungipark.github.com/"/>
+  <updated>2016-07-31T11:12:51.262Z</updated>
+  <id>https://jungipark.github.com/</id>
+  
+  <author>
+    <name>JunGi Park</name>
     
-<head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="JunGi Park">
-    <title>Archives: 2016 - JunGi Park</title>
-    <meta name="author" content="JunGi Park">
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>리눅스에서 파이썬으로 스크린샷 찍기</title>
+    <link href="https://jungipark.github.com/2016/07/31/2016-03-25-python-liux-screenshot/"/>
+    <id>https://jungipark.github.com/2016/07/31/2016-03-25-python-liux-screenshot/</id>
+    <published>2016-07-31T11:12:51.264Z</published>
+    <updated>2016-07-31T11:12:51.262Z</updated>
     
-    
-    
-        <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
-    
-    <meta name="description">
-<meta property="og:type" content="blog">
-<meta property="og:title" content="JunGi Park">
-<meta property="og:url" content="https://jungipark.github.com/archives/2016/index.html">
-<meta property="og:site_name" content="JunGi Park">
-<meta property="og:description">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JunGi Park">
-<meta name="twitter:description">
-    
-    
-        
-    
-    
-    
-    
-    
-    <!--STYLES-->
-    <link rel="stylesheet" href="/assets/css/style-quwccsthbllipo6252snb2tfkddvrsp1eczkytpz3vmxpsb6nwodixemlkux.min.css">
-    <!--STYLES END-->
-    
-    
-</head>
-
-    <body>
-        <div id="blog">
-            <!-- Define author's picture -->
-
-
-    
-
-<header id="header" data-behavior="2">
-    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
-    <h1 class="header-title">
-        <a class="header-title-link" href="/ ">JunGi Park</a>
-    </h1>
-    
-        
-            <a  class="header-right-picture "
-                href="#about">
-        
-        
-        </a>
-    
-</header>
-
-            <!-- Define author's picture -->
-
-
-<nav id="sidebar" data-behavior="2">
-    
-    
-        <ul class="sidebar-buttons">
-        
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link "
-                         href="/ "
-                        
-                    >
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
-                    <span class="sidebar-button-desc">Home</span>
-                </a>
-        </li>
-        
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link "
-                         href="/all-categories"
-                        
-                    >
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
-                    <span class="sidebar-button-desc">Categories</span>
-                </a>
-        </li>
-        
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link "
-                         href="/all-tags"
-                        
-                    >
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
-                    <span class="sidebar-button-desc">Tags</span>
-                </a>
-        </li>
-        
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link "
-                         href="/all-archives"
-                        
-                    >
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
-                    <span class="sidebar-button-desc">Archives</span>
-                </a>
-        </li>
-        
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link st-search-show-outputs"
-                         href="#search"
-                        
-                    >
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-search"></i>
-                    <span class="sidebar-button-desc">Search</span>
-                </a>
-        </li>
-        
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link "
-                         href="#about"
-                        
-                    >
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
-                    <span class="sidebar-button-desc">About</span>
-                </a>
-        </li>
-        
-    </ul>
-    
-        <ul class="sidebar-buttons">
-        
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link " href="https://github.com/jungipark" target="_blank">
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
-                    <span class="sidebar-button-desc">GitHub</span>
-                </a>
-        </li>
-        
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link " href="https://facebook.com/vins103" target="_blank">
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-facebook"></i>
-                    <span class="sidebar-button-desc">Facebook</span>
-                </a>
-        </li>
-        
-    </ul>
-    
-        <ul class="sidebar-buttons">
-        
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link "
-                         href="/atom.xml"
-                        
-                    >
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
-                    <span class="sidebar-button-desc">RSS</span>
-                </a>
-        </li>
-        
-    </ul>
-    
-</nav>
-
-            
-            <div id="main" data-behavior="2"
-                 class="
-                        hasCoverMetaIn
-                        ">
-                
-    
-
-<section class="postShorten-group main-content-wrap">
-    
-    
-    <article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-        <div class="postShorten-wrap">
-            <div class="postShorten-header">
-                <h1 class="postShorten-title" itemprop="headline">
-                    
-                        <a class="link-unstyled" href="/2016/07/31/2016-03-25-python-liux-screenshot/">
-                            리눅스에서 파이썬으로 스크린샷 찍기
-                        </a>
-                    
-                </h1>
-                <div class="postShorten-meta">
-    <time itemprop="datePublished" content="Sun Jul 31 2016 20:12:51 GMT+0900">
-	
-		    Jul 31, 2016
-    	
-    </time>
-    
-</div>
-            </div>
-            
-            
-                <div class="postShorten-content" itemprop="articleBody">
-                    <p>리눅스에서 주기적으로 어떤 화면에 대한 스크린샷을 찍을때</p>
+    <content type="html"><![CDATA[<p>리눅스에서 주기적으로 어떤 화면에 대한 스크린샷을 찍을때</p>
 <h3 id="필요한-라이브러리"><a href="#필요한-라이브러리" class="headerlink" title="필요한 라이브러리"></a>필요한 라이브러리</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install  firefox Xvfb libXfont Xorg</span><br><span class="line">pip install pyvirtualdisplay</span><br><span class="line">pip install selenium</span><br></pre></td></tr></table></figure>
 <h2 id="예제코드"><a href="#예제코드" class="headerlink" title="예제코드"></a>예제코드</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyvirtualdisplay <span class="keyword">import</span> Display</span><br><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
 <script src="//gist.github.com/89c8ea48a28524c8574ad1c7f17c1fe4.js"></script>
 <p>이 스크립트를 crontab을 이용해서 실행.</p>
-
-                    
-                        
-                    
-                    
-                        <p>
-                            <a href="/2016/07/31/2016-03-25-python-liux-screenshot/#post-footer" class="postShorten-excerpt_link link">
-                                Comment and share
-                            </a>
-                        </p>
-                    
-                </div>
-            
-        </div>
-        
-    </article>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;리눅스에서 주기적으로 어떤 화면에 대한 스크린샷을 찍을때&lt;/p&gt;
+&lt;h3 id=&quot;필요한-라이브러리&quot;&gt;&lt;a href=&quot;#필요한-라이브러리&quot; class=&quot;headerlink&quot; title=&quot;필요한 라이브러리&quot;&gt;&lt;/a&gt;필요한 라이브러리&lt;/h3&gt;&lt;figur
+    
+    </summary>
     
     
-    <article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-        <div class="postShorten-wrap">
-            <div class="postShorten-header">
-                <h1 class="postShorten-title" itemprop="headline">
-                    
-                        <a class="link-unstyled" href="/2016/07/31/2016-04-05-windows-pip-test/">
-                            windows7 pip user_base import error
-                        </a>
-                    
-                </h1>
-                <div class="postShorten-meta">
-    <time itemprop="datePublished" content="Sun Jul 31 2016 17:28:49 GMT+0900">
-	
-		    Jul 31, 2016
-    	
-    </time>
+  </entry>
+  
+  <entry>
+    <title>windows7 pip user_base import error</title>
+    <link href="https://jungipark.github.com/2016/07/31/2016-04-05-windows-pip-test/"/>
+    <id>https://jungipark.github.com/2016/07/31/2016-04-05-windows-pip-test/</id>
+    <published>2016-07-31T08:28:49.711Z</published>
+    <updated>2016-07-31T08:28:25.174Z</updated>
     
-</div>
-            </div>
-            
-            
-                <div class="postShorten-content" itemprop="articleBody">
-                    <p>windows python pip import user_base error </p>
+    <content type="html"><![CDATA[<p>windows python pip import user_base error </p>
 <p>윈도우랑 파이썬이랑 상당히 조합이 안좋다..<br>하지만 회사처럼 꼭 써야하는 환경에서는 고쳐서 사용해야합니다.<br>저는 systempath 문제로 상당히 고생을 했습니다.</p>
 <p>처음에 깔면 잘 잡히던  path가 어느순간 갑자기 안잡히면서 pip 부터 site-packages를  인식하지 못해 못 쓰게 되었습니다.<br>import user_base error</p>
 <h3 id="anaconda2사용"><a href="#anaconda2사용" class="headerlink" title="anaconda2사용"></a>anaconda2사용</h3><p>저는 anaconda2를 사용했습니다.</p>
@@ -270,47 +57,26 @@
 <h5 id="3-PYTHONUSERBASE-설정"><a href="#3-PYTHONUSERBASE-설정" class="headerlink" title="3. PYTHONUSERBASE 설정"></a>3. PYTHONUSERBASE 설정</h5><p>cmd 에서 python -m site 명령을 실행했을때, 아래 부분 USER_BASE, USER_SITE 부분에서 에러가 난다면 이 부분을 고쳐야 합니다.<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">변수 : PYTHONUSERBASE(생성)</span><br><span class="line">값 : D:\anacoda2</span><br></pre></td></tr></table></figure></p>
 <h5 id="4-PYTHONUSERSITE-설정"><a href="#4-PYTHONUSERSITE-설정" class="headerlink" title="4. PYTHONUSERSITE 설정"></a>4. PYTHONUSERSITE 설정</h5><p>이부분은 위와 같은 환경 변수를 설정하고 나면 USER_SITE 주소는 D:\anacoda2\python27\site-packages 처럼 이상하게 잡힐것입니다.<br>그런경우에는 python\lib\site.py (나의경우 D:\anacoda2\Lib\site.py )<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">255</span> <span class="comment">#USER_SITE = get_path('purelib', '%s_user' % os.name) //주석처리</span></span><br><span class="line"><span class="number">256</span> USER_SITE = <span class="string">'D:\\anacoda2\Lib\site-packages'</span> //site-packages 주소를 입력</span><br><span class="line"><span class="number">257</span> <span class="keyword">return</span> USER_SITE</span><br></pre></td></tr></table></figure></p>
 <p>위의 방법으로 하면 pip path가 D:\anacoda2\Lib\site-packages 으로 잡히고, pip를 다시 사용할수 있을 것입니다.</p>
-
-                    
-                        
-                    
-                    
-                        <p>
-                            <a href="/2016/07/31/2016-04-05-windows-pip-test/#post-footer" class="postShorten-excerpt_link link">
-                                Comment and share
-                            </a>
-                        </p>
-                    
-                </div>
-            
-        </div>
-        
-    </article>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;windows python pip import user_base error &lt;/p&gt;
+&lt;p&gt;윈도우랑 파이썬이랑 상당히 조합이 안좋다..&lt;br&gt;하지만 회사처럼 꼭 써야하는 환경에서는 고쳐서 사용해야합니다.&lt;br&gt;저는 systempath 문제로 상당히
+    
+    </summary>
     
     
-    <article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-        <div class="postShorten-wrap">
-            <div class="postShorten-header">
-                <h1 class="postShorten-title" itemprop="headline">
-                    
-                        <a class="link-unstyled" href="/2016/04/04/2016-04-04-windows-pip-userbase import error/">
-                            windows7 pip user_base import error
-                        </a>
-                    
-                </h1>
-                <div class="postShorten-meta">
-    <time itemprop="datePublished" content="Mon Apr 04 2016 12:52:48 GMT+0900">
-	
-		    Apr 04, 2016
-    	
-    </time>
+  </entry>
+  
+  <entry>
+    <title>windows7 pip user_base import error</title>
+    <link href="https://jungipark.github.com/2016/04/04/2016-04-04-windows-pip-userbase%20import%20error/"/>
+    <id>https://jungipark.github.com/2016/04/04/2016-04-04-windows-pip-userbase import error/</id>
+    <published>2016-04-04T03:52:48.843Z</published>
+    <updated>2016-04-04T03:52:37.000Z</updated>
     
-</div>
-            </div>
-            
-            
-                <div class="postShorten-content" itemprop="articleBody">
-                    <p>windows python pip import user_base error </p>
+    <content type="html"><![CDATA[<p>windows python pip import user_base error </p>
 <p>윈도우랑 파이썬이랑 상당히 조합이 안좋다..<br>하지만 회사처럼 꼭 써야하는 환경에서는 고쳐서 사용해야합니다.<br>저는 systempath 문제로 상당히 고생을 했습니다.</p>
 <p>처음에 깔면 잘 잡히던  path가 어느순간 갑자기 안잡히면서 pip 부터 site-packages를  인식하지 못해 못 쓰게 되었습니다.<br>import user_base error</p>
 <h3 id="anaconda2사용"><a href="#anaconda2사용" class="headerlink" title="anaconda2사용"></a>anaconda2사용</h3><p>저는 anaconda2를 사용했습니다.</p>
@@ -321,83 +87,16 @@
 <h5 id="3-PYTHONUSERBASE-설정"><a href="#3-PYTHONUSERBASE-설정" class="headerlink" title="3. PYTHONUSERBASE 설정"></a>3. PYTHONUSERBASE 설정</h5><p>cmd 에서 python -m site 명령을 실행했을때, 아래 부분 USER_BASE, USER_SITE 부분에서 에러가 난다면 이 부분을 고쳐야 합니다.<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">변수 : PYTHONUSERBASE(생성)</span><br><span class="line">값 : D:\anacoda2</span><br></pre></td></tr></table></figure></p>
 <h5 id="4-PYTHONUSERSITE-설정"><a href="#4-PYTHONUSERSITE-설정" class="headerlink" title="4. PYTHONUSERSITE 설정"></a>4. PYTHONUSERSITE 설정</h5><p>이부분은 위와 같은 환경 변수를 설정하고 나면 USER_SITE 주소는 D:\anacoda2\python27\site-packages 처럼 이상하게 잡힐것입니다.<br>그런경우에는 python\lib\site.py (나의경우 D:\anacoda2\Lib\site.py )<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">255</span> <span class="comment">#USER_SITE = get_path('purelib', '%s_user' % os.name) //주석처리</span></span><br><span class="line"><span class="number">256</span> USER_SITE = <span class="string">'D:\\anacoda2\Lib\site-packages'</span> //site-packages 주소를 입력</span><br><span class="line"><span class="number">257</span> <span class="keyword">return</span> USER_SITE</span><br></pre></td></tr></table></figure></p>
 <p>위의 방법으로 하면 pip path가 D:\anacoda2\Lib\site-packages 으로 잡히고, pip를 다시 사용할수 있을 것입니다.</p>
-
-                    
-                        
-                    
-                    
-                        <p>
-                            <a href="/2016/04/04/2016-04-04-windows-pip-userbase import error/#post-footer" class="postShorten-excerpt_link link">
-                                Comment and share
-                            </a>
-                        </p>
-                    
-                </div>
-            
-        </div>
-        
-    </article>
+]]></content>
     
-    <div class="pagination-bar">
-    <ul class="pagination">
-        
-        
-        <li class="pagination-number">page 1 of 1</li>
-    </ul>
-</div>
-
-</section>
-
-
-
-                <footer id="footer" class="main-content-wrap">
-    <span class="copyrights">
-        Copyrights &copy; 2016 JunGi Park. All Rights Reserved.
-    </span>
-</footer>
-
-            </div>
-            
-        </div>
-        
-
-
-<div id="about">
-    <div id="about-card">
-        <div id="about-btn-close">
-            <i class="fa fa-remove"></i>
-        </div>
-        
-            <h4 id="about-card-name">JunGi Park</h4>
-        
-            <h5 id="about-card-bio"><p>author.bio</p>
-</h5>
-        
-        
-            <h5 id="about-card-job">
-                <i class="fa fa-briefcase"></i>
-                <br/>
-                <p>author.job</p>
-
-            </h5>
-        
-        
-            <h5 id="about-card-location">
-                <i class="fa fa-map-marker"></i>
-                <br/>
-                Seoul, Korea
-            </h5>
-        
-    </div>
-</div>
-
-        
-<div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
-    </body>
-    <!--SCRIPTS-->
-<script src="/assets/js/scrip-rjanlllosg30d03qrddpwrs6wqf4k3v0bbo68hiifuvthyhqfefx2htcagu0.min.js"></script>
-<!--SCRIPTS END-->
-
-
-
-</html>
+    <summary type="html">
+    
+      &lt;p&gt;windows python pip import user_base error &lt;/p&gt;
+&lt;p&gt;윈도우랑 파이썬이랑 상당히 조합이 안좋다..&lt;br&gt;하지만 회사처럼 꼭 써야하는 환경에서는 고쳐서 사용해야합니다.&lt;br&gt;저는 systempath 문제로 상당히
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
