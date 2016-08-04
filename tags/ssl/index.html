@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="JunGi Park">
-    <title>all-archives - JunGi Park</title>
+    <title>Tag: ssl - JunGi Park</title>
     <meta name="author" content="JunGi Park">
     
     
@@ -15,13 +15,12 @@
     
     <meta name="description">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="all-archives">
-<meta property="og:url" content="https://jungipark.github.com/all-archives/index.html">
+<meta property="og:title" content="JunGi Park">
+<meta property="og:url" content="https://jungipark.github.com/tags/ssl/index.html">
 <meta property="og:site_name" content="JunGi Park">
 <meta property="og:description">
-<meta property="og:updated_time" content="2016-07-31T11:37:36.687Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="all-archives">
+<meta name="twitter:title" content="JunGi Park">
 <meta name="twitter:description">
     
     
@@ -176,77 +175,73 @@
                         hasCoverMetaIn
                         ">
                 
-<div id="archives" class="main-content-wrap">
-    <form id="filter-form" action="#">
-        <input name="date" type="text" class="form-control input--xlarge" placeholder="Search date (YYYY/MM/DD)" autofocus="autofocus">
-    </form>
-    <h5 class="archive-result text-color-base text-xlarge"
-        data-message-zero="no post found"
-        data-message-one="1 post found"
-        data-message-other="{n} posts found"></h5>
-    <section class="boxes">
+    
+
+<section class="postShorten-group main-content-wrap">
+    
+    
+    <article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
+        <div class="postShorten-wrap">
+            <div class="postShorten-header">
+                <h1 class="postShorten-title" itemprop="headline">
+                    
+                        <a class="link-unstyled" href="/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+                            Let&#39;s Encrypt 를 이용한 무료 ssl 인증서
+                        </a>
+                    
+                </h1>
+                <div class="postShorten-meta">
+    <time itemprop="datePublished" content="Thu Aug 04 2016 15:25:05 GMT+0900">
+	
+		    Aug 04, 2016
+    	
+    </time>
+    
+        <span>in </span>
         
-            
-            
-            
-                
-                
-                <div class="archive archive-year box" data-date="2016">
-                    <h4 class="archive-title">
-                        <a class="link-unstyled" href="/archives/2016">2016</a>
-                    </h4>
-            
-            
-                
-                <ul class="archive-posts archive-month" data-date="201608">
-                    <h5 class="archive-title">
-                        <a class="link-unstyled" href="/archives/2016/08">August</a>
-                    </h5>
-                
-            
-            <li class="archive-post archive-day" data-date="20160804">
-                <a class="archive-post-title" href="/2016/08/04/2016-08-04-letsEncryptNginxSSL/">Let&#39;s Encrypt 를 이용한 무료 ssl 인증서</a>
-                <span class="archive-post-date"> - aug 04, 2016</span>
-            </li>
-        
-            
-            
-            
-            
-                
-                    </ul>
-                
-                <ul class="archive-posts archive-month" data-date="201604">
-                    <h5 class="archive-title">
-                        <a class="link-unstyled" href="/archives/2016/04">April</a>
-                    </h5>
-                
-            
-            <li class="archive-post archive-day" data-date="20160404">
-                <a class="archive-post-title" href="/2016/04/04/2016-04-04-windows-pip-userbase import error/">windows7 pip user_base import error</a>
-                <span class="archive-post-date"> - apr 04, 2016</span>
-            </li>
-        
-            
-            
-            
-            
-                
-                    </ul>
-                
-                <ul class="archive-posts archive-month" data-date="201603">
-                    <h5 class="archive-title">
-                        <a class="link-unstyled" href="/archives/2016/03">March</a>
-                    </h5>
-                
-            
-            <li class="archive-post archive-day" data-date="20160325">
-                <a class="archive-post-title" href="/2016/03/25/2016-03-25-python-liux-screenshot/">리눅스에서 파이썬으로 스크린샷 찍기</a>
-                <span class="archive-post-date"> - mar 25, 2016</span>
-            </li>
-        
-    </section>
+    <a class="category-link" href="/categories/server/">server</a>
+
+
+    
 </div>
+            </div>
+            
+            
+                <div class="postShorten-content" itemprop="articleBody">
+                    <p>Les’t Encrypt를 이용하면 ssl을 무료로 적용할 수 있습니다.</p>
+<p>3개월이라는 짧은 주기로 갱신해줘야 하는 불편함이 있지만, 편리한 tools을 이용한 명령어 한줄로 간단하게 갱신할 수 있기 때문에 단점보다 장점이 많은 것 같습니다.</p>
+<p>또한, multi-subdomain ssl 인증서를 사용하려면 최소 일년에 60불 정도는 지출 되는데, Les’t Encrypt를 이용하면 무료로 원하는 sub domain를 이용할 수 있습니다.</p>
+<script src="//gist.github.com/2f1263a8678a3b7704b8c7ca90db424e.js"></script>
+<p>위의 코드를 통해서 간단하게, ssl를 인증서를 다운 받고 적용할 수 있습니다.</p>
+<p>참고 사이트<br><a href="https://letsencrypt.org/" target="_blank" rel="external">Let’s Encrypt</a> : 공식 사이트<br><a href="https://certbot.eff.org/" target="_blank" rel="external">certbot</a> : Let’s Encrypt를 간편하게 사용할 수 있는 tools(공식 사이트에서도  이것으로 안내함)</p>
+<p>한국어 참고 자료<br><a href="https://okdevtv.com/mib/letsencrypt" target="_blank" rel="external">https://okdevtv.com/mib/letsencrypt</a><br><a href="https://blog.outsider.ne.kr/1178" target="_blank" rel="external">https://blog.outsider.ne.kr/1178</a></p>
+
+                    
+                        
+                    
+                    
+                        <p>
+                            <a href="/2016/08/04/2016-08-04-letsEncryptNginxSSL/#post-footer" class="postShorten-excerpt_link link">
+                                Comment and share
+                            </a>
+                        </p>
+                    
+                </div>
+            
+        </div>
+        
+    </article>
+    
+    <div class="pagination-bar">
+    <ul class="pagination">
+        
+        
+        <li class="pagination-number">page 1 of 1</li>
+    </ul>
+</div>
+
+</section>
+
 
                 <footer id="footer" class="main-content-wrap">
     <span class="copyrights">
