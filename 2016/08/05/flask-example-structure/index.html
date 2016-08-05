@@ -6,29 +6,26 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="JunGi Park">
-    <title>Let&#39;s Encrypt 를 이용한 무료 ssl 인증서 - JunGi Park</title>
+    <title>python flask의 기본 구조 - JunGi Park</title>
     <meta name="author" content="JunGi Park">
     
     
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="Les’t Encrypt를 이용하면 ssl을 무료로 적용할 수 있습니다.
-3개월이라는 짧은 주기로 갱신해줘야 하는 불편함이 있지만, 편리한 tools을 이용한 명령어 한줄로 간단하게 갱신할 수 있기 때문에 단점보다 장점이 많은 것 같습니다.
-또한, multi-subdomain ssl 인증서를 사용하려면 최소 일년에 60불 정도는 지출 되는데, Les’t E">
+    <meta name="description" content="Flaskflask는 파이썬의 web framework입니다.flask는 Django와 함께 대표적인 python web framework 입니다.  파이썬 framework의 경우 Django가유명하지만, Django와 flask의 경우 다른 철학을 가지고 만들어진 framework 입니다.
+두 framkwork에 대한 비교는 인터넷에 많이 나와 있으니,">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Let's Encrypt 를 이용한 무료 ssl 인증서">
-<meta property="og:url" content="https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/index.html">
+<meta property="og:title" content="python flask의 기본 구조">
+<meta property="og:url" content="https://jungipark.github.com/2016/08/05/flask-example-structure/index.html">
 <meta property="og:site_name" content="JunGi Park">
-<meta property="og:description" content="Les’t Encrypt를 이용하면 ssl을 무료로 적용할 수 있습니다.
-3개월이라는 짧은 주기로 갱신해줘야 하는 불편함이 있지만, 편리한 tools을 이용한 명령어 한줄로 간단하게 갱신할 수 있기 때문에 단점보다 장점이 많은 것 같습니다.
-또한, multi-subdomain ssl 인증서를 사용하려면 최소 일년에 60불 정도는 지출 되는데, Les’t E">
-<meta property="og:updated_time" content="2016-08-04T06:45:03.339Z">
+<meta property="og:description" content="Flaskflask는 파이썬의 web framework입니다.flask는 Django와 함께 대표적인 python web framework 입니다.  파이썬 framework의 경우 Django가유명하지만, Django와 flask의 경우 다른 철학을 가지고 만들어진 framework 입니다.
+두 framkwork에 대한 비교는 인터넷에 많이 나와 있으니,">
+<meta property="og:updated_time" content="2016-08-05T03:40:04.466Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Let's Encrypt 를 이용한 무료 ssl 인증서">
-<meta name="twitter:description" content="Les’t Encrypt를 이용하면 ssl을 무료로 적용할 수 있습니다.
-3개월이라는 짧은 주기로 갱신해줘야 하는 불편함이 있지만, 편리한 tools을 이용한 명령어 한줄로 간단하게 갱신할 수 있기 때문에 단점보다 장점이 많은 것 같습니다.
-또한, multi-subdomain ssl 인증서를 사용하려면 최소 일년에 60불 정도는 지출 되는데, Les’t E">
+<meta name="twitter:title" content="python flask의 기본 구조">
+<meta name="twitter:description" content="Flaskflask는 파이썬의 web framework입니다.flask는 Django와 함께 대표적인 python web framework 입니다.  파이썬 framework의 경우 Django가유명하지만, Django와 flask의 경우 다른 철학을 가지고 만들어진 framework 입니다.
+두 framkwork에 대한 비교는 인터넷에 많이 나와 있으니,">
     
     
         
@@ -188,19 +185,19 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Let&#39;s Encrypt 를 이용한 무료 ssl 인증서
+            python flask의 기본 구조
         </h1>
     
     <div class="post-meta">
-    <time itemprop="datePublished" content="Thu Aug 04 2016 15:25:05 GMT+0900">
+    <time itemprop="datePublished" content="Fri Aug 05 2016 00:00:00 GMT+0900">
 	
-		    Aug 04, 2016
+		    Aug 05, 2016
     	
     </time>
     
         <span>in </span>
         
-    <a class="category-link" href="/categories/server/">server</a>
+    <a class="category-link" href="/categories/flask/">flask</a>
 
 
     
@@ -209,13 +206,13 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>Les’t Encrypt를 이용하면 ssl을 무료로 적용할 수 있습니다.</p>
-<p>3개월이라는 짧은 주기로 갱신해줘야 하는 불편함이 있지만, 편리한 tools을 이용한 명령어 한줄로 간단하게 갱신할 수 있기 때문에 단점보다 장점이 많은 것 같습니다.</p>
-<p>또한, multi-subdomain ssl 인증서를 사용하려면 최소 일년에 60불 정도는 지출 되는데, Les’t Encrypt를 이용하면 무료로 원하는 sub domain를 이용할 수 있습니다.</p>
-<script src="//gist.github.com/2f1263a8678a3b7704b8c7ca90db424e.js"></script>
-<p>위의 코드를 통해서 간단하게, ssl를 인증서를 다운 받고 적용할 수 있습니다.</p>
-<p>참고 사이트<br><a href="https://letsencrypt.org/" target="_blank" rel="external">Let’s Encrypt</a> : 공식 사이트<br><a href="https://certbot.eff.org/" target="_blank" rel="external">certbot</a> : Let’s Encrypt를 간편하게 사용할 수 있는 tools(공식 사이트에서도  이것으로 안내함)</p>
-<p>한국어 참고 자료<br><a href="https://okdevtv.com/mib/letsencrypt" target="_blank" rel="external">https://okdevtv.com/mib/letsencrypt</a><br><a href="https://blog.outsider.ne.kr/1178" target="_blank" rel="external">https://blog.outsider.ne.kr/1178</a></p>
+            <h3 id="Flask"><a href="#Flask" class="headerlink" title="Flask"></a>Flask</h3><p><a href="http://flask.pocoo.org/" target="_blank" rel="external">flask</a>는 파이썬의 web framework입니다.<br>flask는 Django와 함께 대표적인 python web framework 입니다.  파이썬 framework의 경우 Django가<br>유명하지만, Django와 flask의 경우 다른 철학을 가지고 만들어진 framework 입니다.</p>
+<p>두 framkwork에 대한 비교는 인터넷에 많이 나와 있으니, 원래 주제인 flask의 기본 구조에 대해서 이야기<br>하겠습니다.</p>
+<p>flask는 micro framework이기 때문에 자유로운 구조를 가지고 있습니다.  하지만 flask를 이용한<br>프로젝트가 어느정도 커지기 시작하면, flask 프로젝트 구조의 best practice는 무엇인가에 대한 고민이<br>생깁니다.</p>
+<p>그런 고민들 하던중, 몇 가지 프로젝트를 참고하여 지금 사용하고 있는 구조 입니다.</p>
+<p>project-example<br>&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;— app<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        |<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — api<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — auth<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — common<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — db<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        — static<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — templates<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        — view<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — __init__.py<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        — app.py<br>&nbsp;&nbsp;— config.py<br>&nbsp;&nbsp;— project-example.wsgi<br>&nbsp;&nbsp;— manager.py</p>
+<p>위와 같은 구조를 가지고 있습니다.</p>
+<p>추후 계속…….ㅎㅎ</p>
 
             
         </div>
@@ -225,7 +222,7 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">TAGGED IN</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/ssl/">ssl</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/python-flask/">python, flask</a>
 
             </div>
         
@@ -234,7 +231,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/08/05/flask-example-structure/"  data-tooltip="python flask의 기본 구조">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -242,7 +239,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/04/04/2016-04-04-windows-pip-userbase import error/" data-tooltip="windows7 pip user_base import error">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/08/04/2016-08-04-letsEncryptNginxSSL/" data-tooltip="Let&#39;s Encrypt 를 이용한 무료 ssl 인증서">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -257,17 +254,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://jungipark.github.com/2016/08/05/flask-example-structure/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://jungipark.github.com/2016/08/05/flask-example-structure/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://jungipark.github.com/2016/08/05/flask-example-structure/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -291,8 +288,8 @@
 
         
             
-                <div id="ds-thread" class="ds-thread" data-thread-key="2016/08/04/2016-08-04-letsEncryptNginxSSL/"
-     data-title="Let&#39;s Encrypt 를 이용한 무료 ssl 인증서" data-url="https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+                <div id="ds-thread" class="ds-thread" data-thread-key="2016/08/05/flask-example-structure/"
+     data-title="python flask의 기본 구조" data-url="https://jungipark.github.com/2016/08/05/flask-example-structure/">
 </div>
 
             
@@ -316,7 +313,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/08/05/flask-example-structure/"  data-tooltip="python flask의 기본 구조">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -324,7 +321,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/04/04/2016-04-04-windows-pip-userbase import error/" data-tooltip="windows7 pip user_base import error">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/08/04/2016-08-04-letsEncryptNginxSSL/" data-tooltip="Let&#39;s Encrypt 를 이용한 무료 ssl 인증서">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -339,17 +336,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://jungipark.github.com/2016/08/05/flask-example-structure/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://jungipark.github.com/2016/08/05/flask-example-structure/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://jungipark.github.com/2016/08/05/flask-example-structure/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -375,17 +372,17 @@
                 <div id="share-options-bar" class="share-options-bar" data-behavior="3">
     <ul class="share-options">
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https://jungipark.github.com/2016/08/05/flask-example-structure/">
                 <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://jungipark.github.com/2016/08/05/flask-example-structure/">
                 <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https://jungipark.github.com/2016/08/04/2016-08-04-letsEncryptNginxSSL/">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https://jungipark.github.com/2016/08/05/flask-example-structure/">
                 <i class="fa fa-twitter"></i><span>Share on Twitter</span>
             </a>
         </li>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jungipark.github.com/"/>
-  <updated>2016-08-04T06:45:03.339Z</updated>
+  <updated>2016-08-05T03:40:04.466Z</updated>
   <id>https://jungipark.github.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python flask의 기본 구조</title>
+    <link href="https://jungipark.github.com/2016/08/05/flask-example-structure/"/>
+    <id>https://jungipark.github.com/2016/08/05/flask-example-structure/</id>
+    <published>2016-08-04T15:00:00.000Z</published>
+    <updated>2016-08-05T03:40:04.466Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Flask"><a href="#Flask" class="headerlink" title="Flask"></a>Flask</h3><p><a href="http://flask.pocoo.org/" target="_blank" rel="external">flask</a>는 파이썬의 web framework입니다.<br>flask는 Django와 함께 대표적인 python web framework 입니다.  파이썬 framework의 경우 Django가<br>유명하지만, Django와 flask의 경우 다른 철학을 가지고 만들어진 framework 입니다.</p>
+<p>두 framkwork에 대한 비교는 인터넷에 많이 나와 있으니, 원래 주제인 flask의 기본 구조에 대해서 이야기<br>하겠습니다.</p>
+<p>flask는 micro framework이기 때문에 자유로운 구조를 가지고 있습니다.  하지만 flask를 이용한<br>프로젝트가 어느정도 커지기 시작하면, flask 프로젝트 구조의 best practice는 무엇인가에 대한 고민이<br>생깁니다.</p>
+<p>그런 고민들 하던중, 몇 가지 프로젝트를 참고하여 지금 사용하고 있는 구조 입니다.</p>
+<p>project-example<br>&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;— app<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        |<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — api<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — auth<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — common<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — db<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        — static<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — templates<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        — view<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       — __init__.py<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        — app.py<br>&nbsp;&nbsp;— config.py<br>&nbsp;&nbsp;— project-example.wsgi<br>&nbsp;&nbsp;— manager.py</p>
+<p>위와 같은 구조를 가지고 있습니다.</p>
+<p>추후 계속…….ㅎㅎ</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Flask&quot;&gt;&lt;a href=&quot;#Flask&quot; class=&quot;headerlink&quot; title=&quot;Flask&quot;&gt;&lt;/a&gt;Flask&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://flask.pocoo.org/&quot; target=&quot;_blank&quot; rel=&quot;ext
+    
+    </summary>
+    
+      <category term="flask" scheme="https://jungipark.github.com/categories/flask/"/>
+    
+    
+      <category term="python, flask" scheme="https://jungipark.github.com/tags/python-flask/"/>
+    
+  </entry>
   
   <entry>
     <title>Let&#39;s Encrypt 를 이용한 무료 ssl 인증서</title>
